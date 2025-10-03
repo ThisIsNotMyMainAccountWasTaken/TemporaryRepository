@@ -21,5 +21,7 @@ Now, starting with the thoughts as to how to implement a circuit to differentiat
   I then consulted the IBM Quiskit implementation pages and created a new oracle, Then defined a CircuitMaker, created the Hadamard,Then Oracle, Then Hadamard Circuit. Then I defined the Result Giver Function which would compute the resulting string and output if the function was balanced or constant.
 
   I beleive it is important to note that all this (Both the code as well as the initial answers for Section 1) was written in Notepad since I did not have enough space in my laptop for an IDE, so there might be many errors. Please don't bully me because of the hundreds of errors that would be present, and look at the logic instead.
+   
    Thank You.
+   
    Please see the attached code file (I went thru a lot of pain for it) Also the first large part of commented code is the code I had initially written for the Automatic production of function, but then realised was broken, and didnt have the heart to delete. Ignore it if it bothers you, read it if you find it interesting, even though there is nothing interesting about it.
