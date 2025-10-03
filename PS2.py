@@ -2,9 +2,13 @@ from qiskit import QuantumCircuit, QuantumRegister
 from qiskit_aer import AerSimulator
 import numpy as np
 import random
-
-
 """
+the first large part of commented code is the code I had initially written for the Automatic production of function, 
+but then realised was broken, and didnt have the heart to delete. Ignore it if it bothers you, read it if you find it interesting, 
+even though there is nothing interesting about it.
+
+
+
 def Function(indice):
 
 	#Choose one of the two and uncomment them to have that function
@@ -167,3 +171,4 @@ def ResultGiver():
 	
 
 	
+
