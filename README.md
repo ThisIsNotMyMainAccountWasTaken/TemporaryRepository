@@ -1,6 +1,7 @@
 # TemporaryRepository
 The Repository for when I need a public repository for random submissions :P
 
+**I realised I made an error in section1 of the thing, and I had already submitted. Concerning Part 2 Q1, there was an error in tensor product calculation, which is now corrected on the google docs as of Friday, 03-10-2025, but cannot be updated on the google forms :C. It is corrected on the google docs link provided in the next paragraph tho.
 
 Before Reading further, it is important to note that the docs submitted in Part 1 also contains a section for Part 2, which is written in a much better way, and also has ✨illustrations✨ (aka, stuff I drew on Google Draw to have the document look more presentable). The Link to the docs is : https://docs.google.com/document/d/1t29mKwR09C4uYoYCNeoLOIn8kN0CyTWs8LTR-8Mf0X0/edit?usp=sharing
 
