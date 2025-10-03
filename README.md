@@ -20,7 +20,7 @@ Now, starting with the thoughts as to how to implement a circuit to differentiat
   The idea was to apply this in a coding platform. I thought it would be simple. I was stupid. I started by defining a function that had two ways, one in which you could either choose to input the function yourself or have it automatically made. The automatically made had an equal probability of being either perfectly balanced, or fully constant, with both 0 filled or 1 filled. Then when I tried to integrate it into the rest of my circuit, I could not understand how to have every index of the function act on the states one by one. So I opened the quiskit implementation page on IBM, and realised I did everything wrong and that I needed to delete everything and start again.
   I then consulted the IBM Quiskit implementation pages and created a new oracle, Then defined a CircuitMaker, created the Hadamard,Then Oracle, Then Hadamard Circuit. Then I defined the Result Giver Function which would compute the resulting string and output if the function was balanced or constant.
 
-  I beleive it is important to note that all this (Both the code as well as the initial answers for Section 1) was written in Notepad since I did not have enough space in my laptop for an IDE, so there might be many errors. Please don't bully me because of the hundreds of errors that would be present, and look at the logic instead.
+  I believe it is important to note that all this (Both the code as well as the initial answers for Section 1) was written in Notepad since I did not have enough space in my laptop for an IDE, so there might be many errors. Please don't bully me because of the hundreds of errors that would be present, and look at the logic instead.
    
    Thank You.
    
