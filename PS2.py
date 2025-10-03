@@ -165,11 +165,12 @@ def ResultGiver():
    	result = AerSimulator().run(qc, shots=1, memory=True).result()
     	measurements = result.get_memory()
     	if "1" in measurements[0]:
-        return "balanced"
-	else:
-    	return "constant"
+        	return "balanced"
+		else:
+    		return "constant"
 	
 
 	
+
 
 
