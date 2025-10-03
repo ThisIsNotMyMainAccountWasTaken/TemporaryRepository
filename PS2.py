@@ -97,19 +97,19 @@ def Function(indice):
 
 
 def Query():
-	qc = QuantumCircuit(num_qubits + 1)
+	qc = QuantumCircuit(4)
  
     	if np.random.randint(0, 2):
         	#Flip output qubit with 50% chance
-        	qc.x(num_qubits)
+        	qc.x(3)
     	if np.random.randint(0, 2):
         	# return constant circuit with 50% chance
         	return qc
  
     	#Choose half the possible input strings
     	on_states = np.random.choice(
-        	range(2**num_qubits),  # numbers to sample from
-        	2**num_qubits // 2,  # number of samples
+        	range(2**3),  # numbers to sample from
+        	2**3 // 2,  # number of samples
         	replace=False,  # makes sure states are only sampled once
     	)
  
@@ -122,7 +122,7 @@ def Query():
     	for state in on_states:
         	qc.barrier()  # Barriers are added to help visualize how the functions are created.
         	qc = add_cx(qc, f"{state:0b}")
-        	qc.mcx(list(range(num_qubits)), num_qubits)
+        	qc.mcx(list(range(3)), 3)
         	qc = add_cx(qc, f"{state:0b}")
  
     	qc.barrier()
@@ -171,4 +171,5 @@ def ResultGiver():
 	
 
 	
+
 
