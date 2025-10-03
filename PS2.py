@@ -17,7 +17,6 @@ def Function(indice):
 
 
 	# manual setup
-	"""
 	if (indice == 0):
 		return ;
 	elif (indice == 1):
@@ -91,8 +90,7 @@ def Function(indice):
 	#Returning an index
 	return FunctionList.index(indice)
 
-	"""
-"""
+
 
 def Query():
 	qc = QuantumCircuit(num_qubits + 1)
@@ -167,4 +165,5 @@ def ResultGiver():
 	else:
     	return "constant"
 	
+
 	
