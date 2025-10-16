@@ -159,9 +159,12 @@ def CircuitMaker():
 
 
 def ResultGiver():
+	
+	#The next few lines were blatantly copied from IBM
+	
 	qc = compile_circuit(function)
 	
- 	#The next few lines were blatantly copied from IBM
+ 	
    	result = AerSimulator().run(qc, shots=1, memory=True).result()
     	measurements = result.get_memory()
     	if "1" in measurements[0]:
@@ -173,6 +176,7 @@ def ResultGiver():
 	
 #Now we run it
 print(ResultGiver())
+
 
 
 
